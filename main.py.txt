@@ -1,0 +1,8 @@
+# List
+#
+# Allows us to store multiple pieces of data in an ordered and changeable way.
+
+exam_scores = ["Ali Kaya", 50.2, 75, 85.5] # List
+print(type(exam_scores[1]))
+exam_scores[1] = 75
+print(type(exam_scores[1]))
